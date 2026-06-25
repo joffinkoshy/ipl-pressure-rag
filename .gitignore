@@ -1,0 +1,21 @@
+# Virtualenv
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE / local tooling
+.idea/
+.claude/
+
+# Scratch
+trail.py
+
+# Raw Cricsheet data (large; download from cricsheet.org — see README)
+ipl_csv/
+
+# OS
+.DS_Store

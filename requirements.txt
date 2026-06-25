@@ -1,0 +1,18 @@
+# Core data
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+
+# Unstructured corpus (Wikipedia)
+Wikipedia-API>=0.6
+requests>=2.28
+
+# Retrieval (local, no API key needed)
+sentence-transformers>=2.2
+faiss-cpu>=1.7
+scikit-learn>=1.2
+
+# Optional LLM backends — only needed if you set an API key.
+# The pipeline runs fully without these (deterministic extractive synthesis).
+# anthropic>=0.39
+# openai>=1.0
